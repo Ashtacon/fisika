@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+#hero {
+  background-image: url(img/stars-universe.gif);
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
