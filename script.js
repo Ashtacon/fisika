@@ -10,9 +10,9 @@ typewriter
   .typeString("Kelompok 2")
   .pauseFor(300)
   .deleteChars(10)
-  .typeString("Anggota Kelompok :")
+  .typeString("Anggota:")
   .pauseFor(500)
-  .deleteChars(18)
+  .deleteChars(8)
   .typeString("Satria")
   .pauseFor(200)
   .deleteChars(6)
@@ -26,5 +26,5 @@ typewriter
   .pauseFor(200)
   .deleteChars(6)
   .typeString("Rakan")
-  .pauseFor(500)
+  .pauseFor(250)
   .start();
