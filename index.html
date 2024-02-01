@@ -25,29 +25,50 @@
       left: 50%;
       transform: translate(-50%, -50%);
     }
+    .button-wrapper {
+      font-size: 3rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin-top: 5rem;
+    }
     .btn {
       padding: 0.5rem 2rem;
       border-radius: 30px;
+      transition: 0.5 ease-in;
     }
     .btn:hover {
-      box-shadow: 1px 2px 4px #000;
+      background-color: gray;
+      transition: 0.7 ease-in;
     }
     .btn a {
       text-decoration: none;
       color: #000;
     }
+    .btn:hover a {
+      transition: 0.7 ease-in;
+      color: #fff !important;
+    }
+    #name {
+      font-size: 4rem;
+      min-width: 100%;
+    }
   </style>
   <body>
     <div id="particles-js">
       <div class="items">
-        <h1>Particles</h1>
+        <h1 id="name"></h1>
+      </div>
+      <div class="button-wrapper">
         <button class="btn">
           <a href="pages/persentasi.html">Persentasi</a>
         </button>
         <button class="btn"><a href="pages/notulen.html">Notulen</a></button>
       </div>
     </div>
-
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="script.js"></script>
     <script src="particles.js"></script>
     <script src="app.js"></script>
   </body>
