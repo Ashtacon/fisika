@@ -10,22 +10,45 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+      overflow: hidden;
     }
     #particles-js {
       width: 100%;
       height: 100vh;
       background-image: url(img/stars-universe.gif);
     }
-    h1 {
+    .items {
+      color: white;
+      font-size: 3rem;
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
     }
+    .btn {
+      padding: 0.5rem 2rem;
+      border-radius: 30px;
+    }
+    .btn:hover {
+      box-shadow: 1px 2px 4px #000;
+    }
+    .btn a {
+      text-decoration: none;
+      color: #000;
+    }
   </style>
   <body>
     <div id="particles-js">
-      <h1>Particles</h1>
+      <div class="items">
+        <h1>Particles</h1>
+        <button class="btn">
+          <a href="pages/persentasi.html">Persentasi</a>
+        </button>
+        <button class="btn"><a href="pages/notulen.html">Notulen</a></button>
+      </div>
     </div>
+
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
